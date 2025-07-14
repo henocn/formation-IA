@@ -89,7 +89,7 @@ Quantifier la proximité semantique de deux representation mos
 ### Traitement sequentiel des données
 **Objectif** : _modeliser les dépendences entre les différents elements d'une séquence_
 #### Les modele
-- recurrent neurone (RNN /LSTN)
+- recurrent neurone (**RNN /LSTM**)
   - difficile de relier deux mots eloigné
   - cout temporel elevé
   - **dificulté** a cerner le contexte d'un texte assez long
@@ -97,5 +97,20 @@ Quantifier la proximité semantique de deux representation mos
 ### Structure globale des transformer
 
 **encodeur** encode une séquence
+- multi-head
+- add & layer
+- feed forward netwok
+- add and layer normalisation
+  
 **decodeur** génére la séquence cible.
+- unknow
+- unknow
+- unknow
+- unknow
+
+Chaque bloc contient attention normalisation connexion.
+Transfomers
+**Inconvénients**: consomment assez de mémoire pour des textes assez long.
+
+**Avantage** : parallelisme, rapide.
 
