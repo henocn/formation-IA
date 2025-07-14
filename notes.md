@@ -86,7 +86,7 @@ Quantifier la proximité semantique de deux representation mos
 			ARCHITECTURE CLEFS DES TRANSFORMERS
 
 			
-### Traitement sequentiel des données
+### <u>Traitement sequentiel des données</u>
 **Objectif** : _modeliser les dépendences entre les différents elements d'une séquence_
 #### Les modele
 - recurrent neurone (**RNN /LSTM**)
@@ -94,15 +94,15 @@ Quantifier la proximité semantique de deux representation mos
   - cout temporel elevé
   - **dificulté** a cerner le contexte d'un texte assez long
 
-### Structure globale des transformer
+### <u>Structure globale des transformer</u>
 
-**encodeur** encode une séquence
+**encodeur** encode une séquence en representation contextuelle
 - multi-head
 - add & layer
-- feed forward netwok
+- feed forward network
 - add and layer normalisation
   
-**decodeur** génére la séquence cible.
+**decodeur** génére la séquence cible de manière regressive.
 - unknow
 - unknow
 - unknow
