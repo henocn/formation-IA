@@ -1,7 +1,8 @@
 			LES BASES MATHEMATIQUES RAPPEL
 
 
-**Des vecteurs forment une base** si c'est une famille libre et generatrcie
+### Des vecteurs forment une base
+Si c'est une famille libre et generatrcie
 
 Fonction $GELU(x)$ derivable partout et plus fiable que $RELU(x)$
 On a les vecteurs :
@@ -77,9 +78,24 @@ Les différents types d'encodages
 
 Quantifier la proximité semantique de deux representation mos
 - similatité cosinus (-1 mot oposé, 0 orthogonaux, 1 proches)
+- score d'attention (défini deux clefs requete et valeurs)
 
 
 
 ***
-			MECANISMES CLEFS DES TRANSFORMERS
+			ARCHITECTURE CLEFS DES TRANSFORMERS
+
+			
+### Traitement sequentiel des données
+**Objectif** : _modeliser les dépendences entre les différents elements d'une séquence_
+#### Les modele
+- recurrent neurone (RNN /LSTN)
+  - difficile de relier deux mots eloigné
+  - cout temporel elevé
+  - **dificulté** a cerner le contexte d'un texte assez long
+
+### Structure globale des transformer
+
+**encodeur** encode une séquence
+**decodeur** génére la séquence cible.
 
