@@ -1,0 +1,42 @@
+			LES BASES MATHEMATIQUES RAPPEL
+
+
+**Des vecteurs forment une base** si c'est une famille libre et generatrcie
+
+Fonction $GELU(x)$ derivable partout et plus fiable que $RELU(x)$
+On a les vecteurs :
+- vecteur discret (nombres entiers)
+- vecteur dense (nombres réels)
+
+$R ^ mXn m $: nombre d'exemples
+		n : echantillons
+**trace d'une matrice** c'est la somme des elements des diagolanles
+Matrice diagonalisable $PDP^-1$
+La puissance d'une matrice $PD^kP^-1$ pour une matrice élévée à la puissance k
+
+**SVD** : Singular v=Value Decomposition.
+
+
+
+***
+			LES BASES MATHEMATIQUES DU DEEP LEARNING
+
+**tenseur** une fonction multilinéaire
+**scalaire** : simililarité (-1, 0, 1)
+**softmax** : transformer un vecteur en une distribution de probabilités.
+
+Role models : approximer la distribution.
+**hypothese de markov** : cette hypothèse permet de reduire la complexité du modèle
+**cont(wt-1, wt)** : le nbr de fois que wt suit wt-1 qui est une probabilité
+pour éviter que cette probabilité soit nulle on ajoute un alpha
+
+pour calculer l'incertitude on calcule l'antropie (qui permet de savoir la performance d'un model)
+- faible antropie dstribution concentré model est confiant
+- faible antropie dstribution model est incertain
+
+**perplexité** : le nombre effectif de mots probables que le model considere 
+_perplexité inférieur plus consistant qui permet d'évaluer de manière quantitative_
+
+fonctions d'activation signoide, tangente hyperbolique, RELU GENU quand il n'ya a pas de fonction d'actiation et donc les choses seront linéaires et le model n'apprend pas grand chose. et pour cela on ajout des fonction d'activation non linéaires
+
+Arcitecture transformers
