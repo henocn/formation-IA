@@ -37,6 +37,15 @@ pour calculer l'incertitude on calcule l'antropie (qui permet de savoir la perfo
 **perplexité** : le nombre effectif de mots probables que le model considere 
 _perplexité inférieur plus consistant qui permet d'évaluer de manière quantitative_
 
-fonctions d'activation signoide, tangente hyperbolique, RELU GENU quand il n'ya a pas de fonction d'actiation et donc les choses seront linéaires et le model n'apprend pas grand chose. et pour cela on ajout des fonction d'activation non linéaires
+fonctions d'activation :
+- **signoide logistique** $f(x) = 1/1-exp(^-x)$ probleme de saturation,
+- **tangente hyperbolique** centré en 0 probleme de saturation,
+- **RELU** neurones morts,
+- **GENU**
+
+Quand il n'ya a pas de fonction d'actiation et donc les choses seront linéaires et le model n'apprend pas grand chose. et pour cela on ajout des fonction d'activation non linéaires
 
 Arcitecture transformers
+# La fonction de perte 
+l'ecart entre la prédiction et la réalité. L'object est de minimiser la erte.
+
