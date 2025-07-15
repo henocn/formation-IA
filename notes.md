@@ -118,5 +118,25 @@ Probleme de tokenisation
 
 ### Alignement (par apprentissage et par renforcement)
 
+Les problemenes malgré la performance des IA
+- desinformation
+- Toxicité
+- recommandation dangereuses
+- réponses absurdes
+
+L'alignement vise a reduire entre la prédiction statistiques et les attentes humaines
+
+La pluspart des métodes 
+- Fine-tuning
+- RLHF (Renforcement Learning from Human feedback)
 
 
+**Il y a trois types d'alignement**
+1. Alignement aux intensions humaines
+2. Alignement aux valeurs hummaines (étique, morale et cultirirel)
+3. Alignement aux objectifs explicites
+
+**Les défis liés aux alignements**
+1. Pas facile de comprendre l'intension humaines
+2. Manipuation
+3. surchargement
