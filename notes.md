@@ -114,3 +114,9 @@ Transfomers
 
 **Avantage** : parallelisme, rapide.
 
+Probleme de tokenisation 
+
+### Alignement (par apprentissage et par renforcement)
+
+
+
