@@ -127,8 +127,8 @@ Les problemenes malgré la performance des IA
 L'alignement vise a reduire entre la prédiction statistiques et les attentes humaines
 
 La pluspart des métodes 
-- Fine-tuning
 - RLHF (Renforcement Learning from Human feedback)
+- Supervised Fine-tuning
 
 
 **Il y a trois types d'alignement**
